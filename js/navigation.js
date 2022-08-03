@@ -48,11 +48,6 @@ const navigation = (root) => {
     logo_name.className = 'logo_name';
     logo_name.innerHTML = 'chocolate-milk';
     logo_content.appendChild(logo_name);
-    //menu
-    const menu = document.createElement('i');
-    menu.className = 'bx bx-menu';
-    menu.id = 'btn';
-    logo_content.appendChild(menu);
     //svg
     // const img_logo_svg = document.createElement('svg');
     // img_logo_svg.innerHTML= 'chocolate-milk'

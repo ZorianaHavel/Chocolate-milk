@@ -4,6 +4,7 @@
     top: 0px;
     left: 280px;
     padding: 0px;
+    /* width: 100%; */
     width: 1160px;
    
 }
@@ -11,11 +12,12 @@
 .header_wrap {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     height: 64px;
     top: 0px;
     border: 1px solid #3A3C51;
+    gap: 12px;
 }
 
 .header_wrap:hover {
@@ -27,8 +29,31 @@
     color: #F9F9FB;
     padding: 14px 9px;
     font-size: 22px;
+    
+    
 }
 
 .header_wrap i:hover {
+    
     color: #9E26FF;
+}
+.header_wrap img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: url(../img/user_one.png);
+    
+
+}
+.header_wrap img:hover {
+    color: #9E26FF;
+}
+.user_name{
+    color: #F9F9FB;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    position: relative;
 }

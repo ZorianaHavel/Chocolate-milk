@@ -1,6 +1,6 @@
 .navigation {
     position: fixed;
-    width: 280px; 
+    width: 280px;
     /* width: 78px; */
     min-height: 100vh;
     left: 0px;
@@ -15,11 +15,6 @@
     border-color: #9E26FF
 }
 
-/* .navigation.active {
-    width: 280px;
-
-} */
-
 .logo_content {
     display: flex;
     flex-direction: row;
@@ -31,7 +26,6 @@
     left: 0px;
     top: 0px;
     border: 1px solid #3A3C51;
-    
 }
 
 .logo_content:hover {
@@ -47,14 +41,9 @@
     align-items: center;
     text-align: center;
     position: relative;
-    /* opacity: 0;
-    pointer-events: none; */
+
 }
 
-/* .navigation.active.logo_name {
-    opacity: 1;
-    pointer-events: auto;
-} */
 .logo_name:hover {
     color: #9E26FF;
     border: 1px solid #3A3C51;
@@ -63,14 +52,9 @@
 .logo_content .bx {
     background-color: #0D0D14;
     color: #9E26FF;
-    /* opacity: 0;
-    pointer-events: none; */
-}
-/* .navigation.active.logo_content .bx bxs-dashboard {
-    opacity: 1;
-    pointer-events: auto;
 
-} */
+}
+
 .naw_dashboard li a {
     display: flex;
     flex-direction: row;

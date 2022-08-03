@@ -35,6 +35,12 @@ const header = (root) => {
     img_user.className='img_user';
     img_user.img_user='user_one.png';
     header_wrap.appendChild(img_user);
+    //use name
+    const user_name=document.createElement('div');
+    user_name.className='user_name';
+    user_name.innerHTML='Nick Hennesi';
+    header_wrap.appendChild(user_name);
+
 
 
 
