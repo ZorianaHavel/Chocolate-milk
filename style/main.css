@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    position: relative;
+    width: 1440px;
+    min-height: 100vh;
+    background: #2D2D2D;
+    overflow: hidden;
+    
+}
+
+/* @media screen and (max-width: 1300px) {
+    .container {
+        width: 900px;
+    }
+} */
+.bx{
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

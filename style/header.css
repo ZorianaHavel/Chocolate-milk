@@ -1,0 +1,34 @@
+.header {
+    background: #0D0D14;
+    position: fixed;
+    top: 0px;
+    left: 280px;
+    padding: 0px;
+    width: 1160px;
+   
+}
+
+.header_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    top: 0px;
+    border: 1px solid #3A3C51;
+}
+
+.header_wrap:hover {
+    border-color: #9E26FF
+}
+
+.header_wrap i {
+    background-color: #0D0D14;
+    color: #F9F9FB;
+    padding: 14px 9px;
+    font-size: 22px;
+}
+
+.header_wrap i:hover {
+    color: #9E26FF;
+}
