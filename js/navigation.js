@@ -46,7 +46,7 @@ const navigation = (root) => {
     logo_content.appendChild(icon_logo);
     const logo_name = document.createElement('div');
     logo_name.className = 'logo_name';
-    logo_name.innerHTML = 'chocolate-milk';
+    logo_name.innerHTML = 'ChocolateMilk';
     logo_content.appendChild(logo_name);
     //svg
     // const img_logo_svg = document.createElement('svg');
