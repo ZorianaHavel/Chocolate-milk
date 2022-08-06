@@ -11,6 +11,7 @@
     transition: all 0.5s ease;
 }
 
+
 .navigation:hover {
     border-color: #9E26FF
 }
@@ -44,9 +45,14 @@
 
 }
 
+.img_logo{
+    width: 36px;
+    height: 34px;
+    background-color: #0D0D14;  
+    background: url(../img/img.png);
+}
 .logo_name:hover {
     color: #9E26FF;
-    border: 1px solid #3A3C51;
 }
 
 .logo_content .bx {

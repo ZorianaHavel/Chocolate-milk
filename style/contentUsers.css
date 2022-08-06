@@ -1,0 +1,176 @@
+.content {
+    display: block;
+    position: absolute;
+    width: 1160px;
+    height: 100vh;
+    border: 1px solid #3A3C51;
+    /* min-height: calc(100vh- 64px); not work????*/
+    left: 280px;
+    top: 64px;
+}
+
+/* .content:hover {
+    border-color: #9E26FF
+
+} */
+
+.content_myprofile {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.login_windov {
+    margin-left: 213px;
+    margin-top: 24px;
+    margin-right: 213px;
+    margin-bottom: 40px;
+    width: 734px;
+    height: 700px;
+    background-color: #262836;
+    border: 1px solid #3A3C51;
+
+}
+
+.login_windov:hover {
+    border-color: #9E26FF
+}
+
+.photo h4 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 64px;
+    margin-top: 40px;
+
+}
+
+.info_photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 64px;
+    align-items: flex-start;
+    border-bottom: 1px solid #7B7C8A;
+}
+
+.user_photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    background: url(../img/men\ Nick.png);
+    margin-top: 48px;
+    margin-right: 32px
+}
+
+.btnstyle {
+    width: 135px;
+    height: 48px;
+    margin-top: 181px;
+    padding: 10px 8px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #F9F9FB;
+    background: #9E26FF;
+    border-radius: 8px;
+    margin-right: 12px;
+
+}
+
+.btnremove {
+
+    width: 88px;
+    height: 48px;
+    margin-top: 181px;
+    padding: 10px 8px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #9E26FF;
+    background: #262836;
+    border-radius: 8px;
+    margin-right: 12px;
+    margin-bottom: 43px;
+    /* border: 1px solid #B559FF;  mає виглядати як бордер*/
+    border-bottom: 1px solid #B559FF;
+}
+
+.info_photo {
+    border-bottom: 1px solid #7B7C8A;
+    width: 606px;
+}
+
+.userinfo h4 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 22px;
+    margin-bottom: 24px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 64px;
+    margin-right: 64px;
+
+}
+
+.style {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7B7C8A;
+    width: 606px;
+    height: 21px;
+    /* margin-left: 64px; */
+}
+
+.form input [type='text'],
+[placeholder = 'User name'],
+[placeholder = '+380XXXXXXXXX'],
+[placeholder = 'steve.jobs@gmail.com'] {
+    border: 0;
+    background: none;
+    display: block;
+    text-align:start;
+    outline: none;
+    border: 1px solid #9E26FF;
+    margin: 10px auto;
+    padding: 12px 16px;
+    width: 606px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7B7C8A;
+    background-color: #262836;
+    border-radius: 8px;
+}
+
+
+.btn{
+    width: 135px;
+    height: 48px;
+    padding: 10px 8px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #F9F9FB;
+    background: #9E26FF;
+    border-radius: 8px;
+    margin-left: 424px;
+    margin-top: 14px;
+}

@@ -6,37 +6,25 @@
 }
 
 body {
-    
+    display: block;
     position: relative;
     width: 1440px;
-    width: 100%;
+    margin-left: auto;
+    margin-left: auto;
     min-height: 100vh;
     background: #2D2D2D;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1500px) {
     .root {
         width: 900px;
     }
 }
-/* .bx{
-    background-color: antiquewhite;
-} */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.root svg {
+    position:sticky;
+    left: 44.42%;
+    margin-top: 70px;
+   
+}

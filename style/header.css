@@ -1,12 +1,12 @@
 .header {
-    background: #0D0D14;
     position: fixed;
+    background: #0D0D14;
     top: 0px;
     left: 280px;
     padding: 0px;
     /* width: 100%; */
     width: 1160px;
-
+    height: 64px;
 }
 
 .header_wrap {
@@ -14,8 +14,8 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    height: 64px;
     top: 0px;
+    height: 64px;
     border: 1px solid #3A3C51;
     gap: 12px;
 }

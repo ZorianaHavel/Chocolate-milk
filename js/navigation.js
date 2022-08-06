@@ -42,18 +42,14 @@ const navigation = (root) => {
     navigation.appendChild(logo_content);
     //icon_logo
     const icon_logo = document.createElement('i');
+    icon_logo.className='img_logo';
+    // icon_logo.icon_logo='img.png';
     icon_logo.className = 'bx bxs-dashboard';
     logo_content.appendChild(icon_logo);
     const logo_name = document.createElement('div');
     logo_name.className = 'logo_name';
     logo_name.innerHTML = 'ChocolateMilk';
     logo_content.appendChild(logo_name);
-    //svg
-    // const img_logo_svg = document.createElement('svg');
-    // img_logo_svg.innerHTML= 'chocolate-milk'
-    // logo.appendChild(img_logo_svg);
-    // img_logo.appendChild(img_logo_svg);
-
     //naw_dashboard
     const nav_dashboard = document.createElement('div');
     nav_dashboard.className = 'naw_dashboard';
