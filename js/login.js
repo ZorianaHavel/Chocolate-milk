@@ -31,7 +31,7 @@ const login = (root) => {
                 cleanPage(root);
                 header(root);
                 navigation(root);
-                content(root);
+                contentUsers(root);
             }
         });
     });

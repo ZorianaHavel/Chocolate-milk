@@ -1,0 +1,72 @@
+.contentCourses_video {
+    display: block;
+    position: absolute;
+    width: 1160px;
+    height: 100vh;
+    border: 1px solid #3A3C51;
+    /* min-height: calc(100vh- 64px); not work????*/
+    left: 280px;
+    top: 64px;
+}
+
+.contentCourses_video h4 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 64px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+.allcourses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 46px;
+    margin-left: 64px;
+}
+
+.courses_video {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+    background: #262836;
+    border: 1px solid #3A3C51;
+    border-radius: 8px;
+}
+
+.courses_video:hover {
+    border-color: #9E26FF;
+}
+
+.courses_video img {
+    width: 187px;
+    height: 116px;
+}
+
+.courses_video .bx {
+    background-color: #0D0D14;
+    color: #F9F9FB;
+    padding: 14px 9px;
+    font-size: 22px;
+    margin-top: 36px 12px;
+    background: #262836;
+    border-radius: 8px;
+}
+
+.bx:hover {
+    color: #9E26FF;
+}
+
+.courses_video h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 38px;
+    color: #F9F9FB;
+    padding: 6px 8px;
+}

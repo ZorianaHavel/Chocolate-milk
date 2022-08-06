@@ -89,12 +89,8 @@ const contentUsers = (root) => {
     form.appendChild(btnupdateinfo);
 
 
-
-   
-
-
-
-
-
-
 }
+
+
+
+

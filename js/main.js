@@ -5,5 +5,7 @@ const root = document.querySelector('.root');
 cleanPage(root);
 header(root);
 navigation(root);
-contentUsers(root);
+// contentUsers(root);
+contentCourses_video(root);
+
 
