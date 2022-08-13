@@ -1,6 +1,7 @@
 const contentCourses_video = (root) => {
     const contentCourses_video = document.createElement('div');
     contentCourses_video.className = 'contentCourses_video';
+    contentCourses_video.id = 'content';
     root.appendChild(contentCourses_video);
     //Courses
     const coursesheader = document.createElement('h4');
@@ -8,10 +9,9 @@ const contentCourses_video = (root) => {
     contentCourses_video.appendChild(coursesheader);
     //coursesheader
     const courses = document.createElement('div');
-    courses.className = 'allcourses';
+    courses.className = 'allcoursesII';
     contentCourses_video.appendChild(courses);
     
-
     video.forEach(el=> {
         //video
         const courses_video = document.createElement('div');
@@ -30,6 +30,13 @@ const contentCourses_video = (root) => {
         courses_video.appendChild(courses_video_like);
     });
 
+    const coursesList = Array.from(document.querySelectorAll('.courses_video'));
+
+    coursesList.forEach(el=>{
+        el.addEventListener('click', ()=>{
+            savedList.push(el);
+        });
+    });
         
  /////////////TO VIDEO//////////////////
 //  const courses_video = document.createElement('div');

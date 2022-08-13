@@ -61,4 +61,29 @@ const video = [
         namecourses:'Post New Course IV',
     },
 ];
+//home_video
+const home_video=[
+    {
+        id:1 ,
+        video: 'https://www.youtube.com/embed/kw1wnvWjgCw',
+        namecourses:'3D Responsive Slider Using Swiper.js',
+    },
+    {
+        id:2 ,
+        video: 'https://www.youtube.com/embed/ooc6f1w6Mzg',
+        namecourses:'Amazing Transparent Login',
+    },
+    {
+        id:3 ,
+        video: 'https://www.youtube.com/embed/wkvnU1CMZh0',
+        namecourses:'Awesome Images Slidershow Using js.',
+    },
+    {
+        id:4 ,
+        video: 'https://www.youtube.com/embed/0a39M1JEKGo',
+        namecourses:'Animated Profile Card UI Design',
+    }
+];
+// Seved
+const savedList = [];
 

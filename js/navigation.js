@@ -2,34 +2,51 @@ const nav_array = [
     {
         iElement: 'bx bx-home-alt',
         spanElement: 'links_name',
-        text: 'Home'
+        text: 'Home',
+        callback: function(root) {
+            contentHome_myvideo_learning(root);
+        }
     },
     {
         iElement: 'bx bx-book-open',
         spanElement: 'links_name',
-        text: 'Courses'
-    },
-    {
-        iElement: 'bx bx-user',
-        spanElement: 'links_name',
-        text: 'Users'
-    },
-    {
-        iElement: 'bx bxl-telegram',
-        spanElement: 'links_name',
-        text: 'Mail'
+        text: 'Courses',
+        callback: function(root) {
+            contentCourses_video(root);
+        }
     },
     {
         iElement: 'bx bx-party',
         spanElement: 'links_name',
-        text: 'New Ivent'
+        text: 'New Ivent',
+        callback: function(root) {
+            
+        }
     },
     {
         iElement: 'bx bx-heart',
         spanElement: 'links_name',
-        text: 'Saved'
+        text: 'Saved',
+        callback: function(root) {
+            saved(root);
+        }
     },
-
+    {
+        iElement: 'bx bx-user',
+        spanElement: 'links_name',
+        text: 'My Profile',
+        callback: function(root) {
+            contentUsers(root);
+        }
+    },
+    {
+        iElement: 'bx bxl-telegram',
+        spanElement: 'links_name',
+        text: 'Mail',
+        callback: function(root) {
+            
+        }
+    },
 ];
 
 const navigation = (root) => {
@@ -42,7 +59,7 @@ const navigation = (root) => {
     navigation.appendChild(logo_content);
     //icon_logo
     const icon_logo = document.createElement('im');
-    icon_logo.className='img_logo';
+    icon_logo.className = 'img_logo';
     // icon_logo.icon_logo='img.png';
     icon_logo.className = 'bx bxs-dashboard';
     logo_content.appendChild(icon_logo);
@@ -62,6 +79,7 @@ const navigation = (root) => {
     nav_array.forEach(el => {
         // naw_list//li
         const list = document.createElement('li');
+        list.className = el.text;
         nav_list.appendChild(list);
         //naw_list//li//a
         const link = document.createElement('a');
@@ -78,18 +96,17 @@ const navigation = (root) => {
         link.appendChild(links_name);
     });
 
-// menu vupluvashka(((
-    // const btn = document.querySelector('#btn');
-    // btn.onclick=function(){
-    //     navigation.classList.add('active')
-    // }
+    const naw_list = Array.from(document.querySelectorAll('.naw_list>li'));
 
-    // btn.onclick=function(){
-    //     navigation.classList.add('active')
-    // }
-
-   
-
+    naw_list.forEach(el => {
+        el.addEventListener('click', () => {
+            cleanContent();
+            const element = nav_array.find((obj) => {
+                return obj.text === el.className;
+            });
+            element.callback(root);
+        });
+    });
 }
 
 

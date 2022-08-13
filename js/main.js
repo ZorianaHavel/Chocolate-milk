@@ -2,10 +2,13 @@ const root = document.querySelector('.root');
 
 // logoSVG(root);not work
 // login(root);
-cleanPage(root);
+// cleanPage(root);
 header(root);
 navigation(root);
+contentHome_myvideo_learning(root);
 // contentUsers(root);
-contentCourses_video(root);
+// saved(root);
+// contentCourses_video(root);
+
 
 

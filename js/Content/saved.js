@@ -1,0 +1,20 @@
+ const saved=(root)=>{
+    const contentCourses_seved = document.createElement('div');
+    contentCourses_seved.className = 'contentCourses_video';
+    contentCourses_seved.id = 'content';
+    root.appendChild(contentCourses_seved);
+    //My seved Courses
+    const coursesheader = document.createElement('h4');
+    coursesheader.innerText = 'My seved Courses';
+    //like
+    contentCourses_seved.appendChild(coursesheader);
+    const allcourses=document.createElement('div');
+    allcourses.className='allcourses';
+
+    savedList.forEach(el=>{
+      allcourses.appendChild(el);
+    });
+
+    contentCourses_seved.appendChild(allcourses);
+ }
+

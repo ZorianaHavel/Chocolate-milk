@@ -31,7 +31,7 @@ const login = (root) => {
                 cleanPage(root);
                 header(root);
                 navigation(root);
-                contentUsers(root);
+                contentHome_myvideo_learning(root);
             }
         });
     });

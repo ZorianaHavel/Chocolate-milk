@@ -1,4 +1,4 @@
-.contentCourses_video {
+.contentHome_myvideo_learning {
     display: block;
     position: absolute;
     width: 1160px;
@@ -9,7 +9,7 @@
     top: 64px;
 }
 
-.contentCourses_video h4 {
+.contentHome_myvideo_learning h4 {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -21,32 +21,34 @@
 }
 
 .allcourses {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 46px;
-    margin-left: 64px;
+    margin-bottom: 46px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 26px;
+    max-width: 782px;
 }
 
 .courses_video {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     gap: 24px;
     background: #262836;
     border: 1px solid #3A3C51;
     border-radius: 8px;
+    margin-bottom: 26px;
 }
 
 .courses_video:hover {
     border-color: #9E26FF;
 }
 
-.courses_video img {
-    width: 187px;
-    height: 116px;
+.courses_video iframe {
+   border-radius: 6px;
+   /* padding: 8px; */
+   border-color:#3A3C51
 }
+
 
 .courses_video .bx {
     background-color: #0D0D14;
@@ -69,4 +71,5 @@
     margin-top: 38px;
     color: #F9F9FB;
     padding: 6px 8px;
+    /* align-items: stretch; */
 }

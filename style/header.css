@@ -4,7 +4,6 @@
     top: 0px;
     left: 280px;
     padding: 0px;
-    /* width: 100%; */
     width: 1160px;
     height: 64px;
 }
@@ -42,7 +41,7 @@
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    background: url(../img/user_one.png);
+    background: url(../img/user_one_header.png);
 }
 
 .header_wrap img:hover {

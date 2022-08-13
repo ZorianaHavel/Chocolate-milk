@@ -1,5 +1,6 @@
 const contentUsers = (root) => {
     const contentUsers = document.createElement('div');
+    contentUsers.id = 'content';
     contentUsers.className = 'content';
     root.appendChild(contentUsers);
 
@@ -87,6 +88,7 @@ const contentUsers = (root) => {
     btnupdateinfo.className = 'btn';
     btnupdateinfo.innerHTML = 'Update Info';
     form.appendChild(btnupdateinfo);
+
 
 
 }
