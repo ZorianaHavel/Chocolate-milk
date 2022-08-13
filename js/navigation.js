@@ -3,7 +3,7 @@ const nav_array = [
         iElement: 'bx bx-home-alt',
         spanElement: 'links_name',
         text: 'Home',
-        callback: function(root) {
+        callback: function (root) {
             contentHome_myvideo_learning(root);
         }
     },
@@ -11,7 +11,7 @@ const nav_array = [
         iElement: 'bx bx-book-open',
         spanElement: 'links_name',
         text: 'Courses',
-        callback: function(root) {
+        callback: function (root) {
             contentCourses_video(root);
         }
     },
@@ -19,15 +19,15 @@ const nav_array = [
         iElement: 'bx bx-party',
         spanElement: 'links_name',
         text: 'New Ivent',
-        callback: function(root) {
-            
+        callback: function (root) {
+            new_ivent(root);
         }
     },
     {
         iElement: 'bx bx-heart',
         spanElement: 'links_name',
         text: 'Saved',
-        callback: function(root) {
+        callback: function (root) {
             saved(root);
         }
     },
@@ -35,7 +35,7 @@ const nav_array = [
         iElement: 'bx bx-user',
         spanElement: 'links_name',
         text: 'My Profile',
-        callback: function(root) {
+        callback: function (root) {
             contentUsers(root);
         }
     },
@@ -43,8 +43,8 @@ const nav_array = [
         iElement: 'bx bxl-telegram',
         spanElement: 'links_name',
         text: 'Mail',
-        callback: function(root) {
-            
+        callback: function (root) {
+
         }
     },
 ];

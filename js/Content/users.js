@@ -58,7 +58,7 @@ const contentUsers = (root) => {
     //Username inpun
     const username = document.createElement('input');
     username.type = 'text';
-    username.placeholder = 'User name';
+    username.placeholder = 'Steve Jobs |';
     form.appendChild(username);
 
     //fone

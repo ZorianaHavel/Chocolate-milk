@@ -9,7 +9,7 @@
     //like
     contentCourses_seved.appendChild(coursesheader);
     const allcourses=document.createElement('div');
-    allcourses.className='allcourses';
+    allcourses.className='allcoursesII';
 
     savedList.forEach(el=>{
       allcourses.appendChild(el);

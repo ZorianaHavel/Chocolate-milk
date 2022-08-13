@@ -139,7 +139,7 @@
 }
 
 .form input [type='text'],
-[placeholder = 'User name'],
+[placeholder = 'Steve Jobs |'],
 [placeholder = '+380XXXXXXXXX'],
 [placeholder = 'steve.jobs@gmail.com'] {
     border: 0;
