@@ -1,0 +1,26 @@
+.new_ivent{
+    display: block;
+    position: absolute;
+    width: 1160px;
+    height: 100vh;
+    border: 1px solid #3A3C51;
+    /* min-height: calc(100vh- 64px); not work????*/
+    left: 280px;
+    top: 64px;
+}
+.new_ivent h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 64px;
+    margin-top: 40px;
+}
+.new_ivent h3{
+    color:#3A3C51;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin-left: 534px;
+    margin-top: 340px;
+}

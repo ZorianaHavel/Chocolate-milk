@@ -2,17 +2,12 @@
     display: block;
     position: absolute;
     width: 1160px;
-    height: 836px;
+    height: 100vh;
     border: 1px solid #3A3C51;
     /* min-height: calc(100vh- 64px); not work????*/
     left: 280px;
     top: 64px;
 }
-
-/* .content:hover {
-    border-color: #9E26FF
-
-} */
 
 .content_myprofile {
     color: #FFFFFF;
@@ -20,20 +15,19 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    margin-top: 24px;
-    margin-left: 24px;
+    margin-top: 40px;
+    margin-left: 64px;
 }
 
 .login_windov {
     margin-left: 213px;
-    margin-top: 24px;
+    margin-top: 54px;
     margin-right: 213px;
     margin-bottom: 40px;
     width: 734px;
     height: 700px;
     background-color: #262836;
     border: 1px solid #3A3C51;
-
 }
 
 .login_windov:hover {
@@ -48,7 +42,6 @@
     line-height: 24px;
     margin-left: 64px;
     margin-top: 40px;
-
 }
 
 .info_photo {
@@ -81,7 +74,6 @@
     background: #9E26FF;
     border-radius: 8px;
     margin-right: 12px;
-
 }
 
 .btnremove {
@@ -125,7 +117,6 @@
     flex-direction: column;
     margin-left: 64px;
     margin-right: 64px;
-
 }
 
 .style {
@@ -135,7 +126,6 @@
     color: #7B7C8A;
     width: 606px;
     height: 21px;
-    /* margin-left: 64px; */
 }
 
 .form input [type='text'],

@@ -4,7 +4,7 @@ const contentCourses_video = (root) => {
     contentCourses_video.id = 'content';
     root.appendChild(contentCourses_video);
     //Courses
-    const coursesheader = document.createElement('h4');
+    const coursesheader = document.createElement('h2');
     coursesheader.innerText = 'Courses';
     contentCourses_video.appendChild(coursesheader);
     //coursesheader

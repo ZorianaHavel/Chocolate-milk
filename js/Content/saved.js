@@ -4,7 +4,7 @@
     contentCourses_seved.id = 'content';
     root.appendChild(contentCourses_seved);
     //My seved Courses
-    const coursesheader = document.createElement('h4');
+    const coursesheader = document.createElement('h2');
     coursesheader.innerText = 'My seved Courses';
     //like
     contentCourses_seved.appendChild(coursesheader);

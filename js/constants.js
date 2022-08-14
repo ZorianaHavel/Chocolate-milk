@@ -12,21 +12,21 @@ const users = [
     },
     {
         id: 2,
-        username: 'Poll',
+        username: 'Rick',
         password: '456',
         fullname: 'Rick Santes',
-        phone: '+380975875777',
-        mail: 'nick.nenesse@gmail.com',
-        img: 'image1.png'
+        phone: '+380975875422',
+        mail: 'rick.santes@gmail.com',
+        img: 'men Rick.png.png'
     },
     {
         id: 3,
-        username: 'Ross',
+        username: 'Poll',
         password: '789',
-        username: 'Nick Henesse',
-        phone: '+380975875433',
-        mail: 'nick.nenesse@gmail.com',
-        img: 'image3.png'
+        username: 'Poll Jons',
+        phone: '+380975875411',
+        mail: 'poll.jons@gmail.com',
+        img: 'men Poll.png'
     }
 ];
 

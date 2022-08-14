@@ -35,8 +35,7 @@ const contentHome_myvideo_learning = (root) => {
 
     });
 
-
-
+    
 
     /////////////TO VIDEO//////////////////
     //  const courses_video = document.createElement('div');

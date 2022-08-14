@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://file:///Users/zorianahavel/my%20projects/Chocolate-milk/index.html?#",
+            "request": "launch",
+            "url": "http://file:///Users/zorianahavel/my%20projects/Chocolate-milk/index.html?#"
+        }
+    ]
+}

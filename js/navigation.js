@@ -18,7 +18,7 @@ const nav_array = [
     {
         iElement: 'bx bx-party',
         spanElement: 'links_name',
-        text: 'New Ivent',
+        text: 'New Event',
         callback: function (root) {
             new_ivent(root);
         }
@@ -44,7 +44,7 @@ const nav_array = [
         spanElement: 'links_name',
         text: 'Mail',
         callback: function (root) {
-
+            email(root);
         }
     },
 ];

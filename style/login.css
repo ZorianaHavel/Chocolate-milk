@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: sans-serif;
     background: #0D0D14;
-    
 }
 
 .box {
@@ -31,7 +30,6 @@ body {
 .box input[type="password"]:focus {
     width: 280px;
     border-color: #78BF3A;
-    
 }
 
 

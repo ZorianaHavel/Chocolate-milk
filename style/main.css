@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -13,21 +12,20 @@ body {
     margin-left: auto;
     min-height: 100vh;
     background: #2D2D2D;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .root{
     width: 1440px; ;
     height: calc(100vh-64px);
 }
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     .root {
         width: 900px;
     }
-}
+} */
 
 .root svg {
     position:sticky;
     left: 44.42%;
     margin-top: 70px;
-   
 }
