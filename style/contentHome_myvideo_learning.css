@@ -31,12 +31,13 @@
 .courses_video {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between; /* сердечко по правому краю*/
     gap: 24px;
     background: #262836;
     border: 1px solid #3A3C51;
     border-radius: 8px;
     margin-bottom: 26px;
+   
 }
 
 .courses_video:hover {
@@ -71,4 +72,5 @@
     margin-top: 38px;
     color: #F9F9FB;
     padding: 6px 8px;
+    /* width: 348px; max у всіх однаковий*/ 
 }

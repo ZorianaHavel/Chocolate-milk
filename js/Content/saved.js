@@ -18,3 +18,4 @@
     contentCourses_seved.appendChild(allcourses);
  }
 
+// шоб в дужках 'Saved(2)' показувало ск курсів збережено
