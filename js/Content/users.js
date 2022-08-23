@@ -86,7 +86,7 @@ const contentUsers = (root) => {
     //btn  updateinfo
     const btnupdateinfo = document.createElement('button');
     btnupdateinfo.className = 'btn';
-    btnupdateinfo.innerHTML = 'Update Info';
+    btnupdateinfo.innerHTML = 'UBDATE INFO';
     form.appendChild(btnupdateinfo);
 
 

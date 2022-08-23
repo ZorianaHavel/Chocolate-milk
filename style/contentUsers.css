@@ -47,7 +47,7 @@
 .info_photo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:flex-start;
     margin-left: 64px;
     align-items: flex-start;
     border-bottom: 1px solid #7B7C8A;
