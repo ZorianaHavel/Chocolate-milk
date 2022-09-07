@@ -58,7 +58,7 @@ const navigation = (root) => {
     logo_content.className = 'logo_content';
     navigation.appendChild(logo_content);
     //icon_logo
-    const icon_logo = document.createElement('im');
+    const icon_logo = document.createElement('i');
     icon_logo.className = 'img_logo';
     // icon_logo.icon_logo='img.png';
     icon_logo.className = 'bx bxs-dashboard';

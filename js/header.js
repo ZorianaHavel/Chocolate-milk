@@ -11,25 +11,6 @@ const header = (root) => {
     ring.className = 'bx bx-bell';
     header_wrap.appendChild(ring);
 
-    const nav_array = [
-        {
-            fotoElement: 'bx bx-home-alt',
-            spanElement: 'links_name',
-            text: 'Home'
-        },
-        {
-            iElement: 'bx bx-book-open',
-            spanElement: 'links_name',
-            text: 'Courses'
-        },
-        {
-            iElement: 'bx bx-user',
-            spanElement: 'links_name',
-            text: 'Users'
-        },
-        
-    ]
-
     //user foto
     const img_user =document.createElement('img');
     img_user.className='img_user';
