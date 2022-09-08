@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Tai+Heritage+Pro:wght@700&display=swap);
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    /* min-width: 1440px; */
+    margin-left: auto;
+    margin-left: auto;
+    background:#0D0D14;
+    width: 1440px; ;
+
+}
+
+/* @media screen and (max-width: 1500px) {
+    .root {
+        width: 900px;
+    }
+} */
+
+#content {
+    display: block;
+    position: absolute;
+    width: 1160px;
+    height: 100vh;
+    border: 1px solid #3A3C51;
+    /* min-height: calc(100vh- 64px); not work????*/
+    left: 280px;
+    top: 64px;
+}
