@@ -1,5 +1,4 @@
-//logn.js-pageLogin
-// profile /users.js-naw_MyProfile
+
 const users = [
     {
         id: 1,
@@ -23,7 +22,16 @@ const users = [
         id: 3,
         username: 'Poll',
         password: '789',
-        username: 'Poll Jons',
+        fullname: 'Poll Jons',
+        phone: '+380975875411',
+        mail: 'poll.jons@gmail.com',
+        img: 'men Poll.png'
+    },
+    {
+        id: 3,
+        username: '1',
+        password: '1',
+        fullname: 'Poll Jons',
         phone: '+380975875411',
         mail: 'poll.jons@gmail.com',
         img: 'men Poll.png'

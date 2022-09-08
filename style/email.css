@@ -1,14 +1,4 @@
-.email{
-    display: block;
-    position: absolute;
-    width: 1160px;
-    height: 100vh;
-    border: 1px solid #3A3C51;
-    /* min-height: calc(100vh- 64px); not work????*/
-    left: 280px;
-    top: 64px;
-}
-.email h2{
+.email h2 {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -16,8 +6,9 @@
     margin-left: 64px;
     margin-top: 40px;
 }
-.email h3{
-    color:#3A3C51;
+
+.email h3 {
+    color: #3A3C51;
     font-style: normal;
     font-weight: 700;
     line-height: 36px;

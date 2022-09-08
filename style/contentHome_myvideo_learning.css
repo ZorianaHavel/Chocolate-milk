@@ -1,15 +1,5 @@
-.contentHome_myvideo_learning {
-    display: block;
-    position: absolute;
-    width: 1160px;
-    height: 100vh;
-    border: 1px solid #3A3C51;
-    /* min-height: calc(100vh- 64px); not work????*/
-    left: 280px;
-    top: 64px;
-}
 
-.contentHome_myvideo_learning h4 {
+.contentHome_myvideo_learning h2 {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -22,7 +12,7 @@
 
 .allcourses {
     margin-bottom: 46px;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 26px;
     max-width: 782px;
@@ -31,13 +21,14 @@
 .courses_video {
     display: flex;
     flex-direction: row;
-    justify-content:space-between; /* сердечко по правому краю*/
+    justify-content: space-between;
+    /* сердечко по правому краю*/
     gap: 24px;
     background: #262836;
     border: 1px solid #3A3C51;
     border-radius: 8px;
     margin-bottom: 26px;
-   
+
 }
 
 .courses_video:hover {
@@ -45,20 +36,15 @@
 }
 
 .courses_video iframe {
-   border-radius: 6px;
-   /* padding: 8px; */
-   border-color:#3A3C51
+    border-radius: 6px;
+    border-color: #3A3C51;
+
+    
 }
 
 
 .courses_video .bx {
-    background-color: #0D0D14;
-    color: #F9F9FB;
     padding: 14px 9px;
-    font-size: 22px;
-    margin-top: 36px 12px;
-    background: #262836;
-    border-radius: 8px;
 }
 
 .bx:hover {
@@ -72,5 +58,5 @@
     margin-top: 38px;
     color: #F9F9FB;
     padding: 6px 8px;
-    /* width: 348px; max у всіх однаковий*/ 
+    /* width: 348px; max у всіх однаковий щоб текст займав однакову площу і скидався в наступний рядок при потребі*/
 }
