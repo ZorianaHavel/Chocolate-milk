@@ -1,15 +1,16 @@
 
-const login = document.querySelector('[type="submit"]');
+const button = document.querySelector('button');
 
 const userName = document.querySelector('[type="text"]');
 const password = document.querySelector('[type="password"]');
 
-login.addEventListener('click', () => {
+
+function onClick() {
     users.forEach(el => {
         if (el.username === userName.value && el.password === password.value) {
-            
+         window.open('index.html'); 
         }
     });
-});
+};
 
 

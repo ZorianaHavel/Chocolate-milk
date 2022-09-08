@@ -41,7 +41,8 @@
     width: 40px;
     height: 40px;
     border-radius: 100px;
-    background: url(../img/user_one_header.png);
+    background: url(../img/user_one_header.png); /* no background-size: ; */
+
 }
 
 .header_wrap img:hover {

@@ -50,25 +50,6 @@ body {
     transition: 0.25s;
 }
 
- .box input[type="submit"] {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #9E26FF;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-} 
- .box input[ type="submit"]:hover {
-    background: #9E26FF;
-    cursor: pointer;
-} 
 
 .box button {
     border: 0;
@@ -79,11 +60,15 @@ body {
     border: 2px solid #9E26FF;
     padding: 14px 10px;
     width: 200px;
-    outline: none;
-    color: white;
+    /* outline: none; */
     border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
+}
+
+.box button a {
+    text-decoration: none;
+    color: white;
 }
 
 .box button:hover {

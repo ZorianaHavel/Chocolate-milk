@@ -28,12 +28,12 @@ const users = [
         img: 'men Poll.png'
     },
     {
-        id: 3,
+        id: 4,
         username: '1',
         password: '1',
-        fullname: 'Poll Jons',
-        phone: '+380975875411',
-        mail: 'poll.jons@gmail.com',
+        fullname: 'Bob Smit',
+        phone: '+380975875418',
+        mail: 'bob.smit@gmail.com',
         img: 'men Poll.png'
     }
 ];
